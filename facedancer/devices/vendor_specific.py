@@ -1,13 +1,13 @@
 '''
 Contains class definitions to implement a Vendor Specific USB Device.
 '''
-from facedancer.usb.USBClass import USBClass
-from facedancer.usb.USBDevice import USBDevice, USBDeviceRequest, Request
-from facedancer.usb.USBEndpoint import USBEndpoint
-from facedancer.usb.USBVendor import USBVendor
-from facedancer.usb.USBConfiguration import USBConfiguration
-from facedancer.usb.USBInterface import USBInterface
-from facedancer.usb.USB import *
+from facedancer.USBClass import USBClass
+from facedancer.USBDevice import USBDevice, USBDeviceRequest, Request
+from facedancer.USBEndpoint import USBEndpoint
+from facedancer.USBVendor import USBVendor
+from facedancer.USBConfiguration import USBConfiguration
+from facedancer.USBInterface import USBInterface
+from facedancer.USB import *
 
 import struct
 
